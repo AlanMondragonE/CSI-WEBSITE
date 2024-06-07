@@ -1,0 +1,34 @@
+[
+    {
+        "description": "Asesor Comercial",
+        "status": 1 
+    },
+    {
+        "description" : "Gerente Comercial",
+        "status": 1
+    },
+    {
+        "description" : "Director Adjunto",
+        "status" : 1
+    },
+    {
+        "description" : "Programador Senior",
+        "status" : 1
+    },
+    {
+        "description" : "Programdor Junior",
+        "status" : 1
+    },
+    {
+        "description" : "Quimico Especialista",
+        "status" : 1
+    },
+    {
+        "description" : "Gerente De Prodcutos y Marketing",
+        "status" : 1
+    },
+    {
+        "description" : "Director",
+        "status" : 1
+    }
+]

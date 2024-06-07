@@ -1,0 +1,55 @@
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*.back::before {
+    content: '';
+    background: url('https://img.freepik.com/fotos-premium/cocina-domestica-moderna-equipamiento-acero-inoxidable-suelo-limpio-generado-ia_188544-62033.jpg?w=826');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8; /* Opacidad del 50% para la imagen 
+} */
+
+.card-body .title {
+    color: blue;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+.tittle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.modal-content {
+    height: 500px;
+}
+
+.modal-header,
+.modal-footer {
+    flex-shrink: 0;
+}
+
+body.modal-open {
+    overflow: hidden;
+    overflow-y: hidden;
+    position: fixed !important;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+select option:hover {
+    background-color: #f00; /* Cambia #f00 al color que desees */
+}

@@ -1,0 +1,145 @@
+/*
+ * Component Header
+ * Componente header en el sitio web
+ */
+
+ .header {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header-video {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	overflow: none;
+}
+
+.splide__arrow {
+	height: 2.5rem !important;
+	width: 2.5rem !important;
+}
+
+.splide__arrow--prev {
+	left: 2em !important;
+}
+
+.splide__arrow--next {
+	right: 2em !important;
+}
+
+.splide__slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: scale-down;
+}
+.square-txt{
+	display: flex;
+	width: 35%;
+	z-index: 1;
+	padding: 20px;
+	margin-top: 10%;
+	display: flex;
+	background: rgb(223 42 42);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(6.5px);
+	-webkit-backdrop-filter: blur(6.5px);
+	color: #ffffff;
+	position: absolute;
+	font-size: 12px;
+}
+
+.header-video video {
+	width: 100%;
+	height: 95%;
+	object-fit: cover;
+}
+
+.header-content {
+	position: absolute;
+	left: 2%;
+	bottom: 8%;
+}
+
+.header-content .header-options {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+.btn-action {
+	width: 90%;
+	height: 60px;
+	border-radius: 8px;
+	margin-top: 10px;
+	background-color: rgba(0, 0, 0, 0.7);
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .50) !important;
+	color: #ffffff;
+	font-size: 20px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.btn-action:hover {
+	background: #58ace4;
+	color: #ffffff;
+	;
+}
+
+.btn-action {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.btn-action-content {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.btn-action-icon i {
+	font-size: 30px !important;
+}
+
+.btn-action-title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn-action-subtitle {
+	font-size: 12px;
+}
+
+@media  screen and (max-width: 800px){
+	.square-txt{
+		width: 100%;
+		font-size: 8px;
+		padding: 6px;
+		bottom: 0;
+	}
+}
+
+@media  screen and (max-width: 560px){
+	.square-txt{
+		width: 100%;
+		font-size: 6px;
+		padding: 6px;
+		bottom: 0;
+	
+	}
+}
+
+@media  screen and (max-width: 400px){
+	.square-txt{
+		width: 100%;
+		font-size: 5px;
+		padding: 6px;
+		bottom: 0;
+	}
+}

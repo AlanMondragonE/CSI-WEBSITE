@@ -1,0 +1,22 @@
+[
+    {
+        "description": "Life Sciences",
+        "icon": "/img/subjects/life-sciences.png",
+        "status": 1
+    }, 
+    {
+        "description": "Temperatura",
+        "icon": "/img/subjects/Temperatura.png",
+        "status": 1
+    },
+    {
+        "description" : "Soporte Técnico",
+        "icon" : "/img/subjects/soporte-tecnico.png",
+        "status":1
+    }, 
+    {
+        "description" : "N/A",
+        "icon" : "",
+        "status":1
+    }
+]

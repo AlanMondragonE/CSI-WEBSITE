@@ -1,0 +1,38 @@
+ /* Estilos para el popup de cookies */
+
+ .containerCookies{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  border-top: 2px solid #007bff;
+  padding: 1px;
+  width: 100%;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.cookiesText {
+  margin-right: 10px;
+}
+
+.cookiesText a{
+  color: #007bff;
+}
+
+.cookiesButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
+  

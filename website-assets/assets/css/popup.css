@@ -1,0 +1,249 @@
+  @media only screen and (min-width: 770px) {
+  /* Estilos específicos para dispositivos más grandes */
+  #toPromotedPage {
+    display: none;
+    position: fixed;
+    bottom: 40px !important; 
+    left: 20px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 5px 5px 3px #00000070;
+    width: 350px;
+  }
+
+  #reabrirBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #74b9ff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 5px 5px 3px #00000070;
+    border-radius: 30%;
+    padding: 5px;
+  }
+
+  .popUpCont {
+    display: none;
+    background-color: #fff;
+    width: 350px;
+    height: 150px;
+  }
+
+  .popUpInside {
+    display: flex;
+    padding-left: 5px;
+  }
+
+  .btnsCont {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .titlePopU {
+    background-color: #74b9ff;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+    width: 350px;
+    justify-content: space-between
+  }
+
+  .pBtn {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btnPopUp {
+    background-color: transparent;
+    color: black;
+  }
+
+  .btnPopUp {
+    background-color: transparent;
+    color: #74b9ff;
+    text-decoration: underline;
+    font-weight: bold;
+    
+  }
+
+  .fa-message {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .fa-lightbulb-on {
+    position: relative;
+    left: 1px;
+    top: 10px;
+    font-size: 16px;
+  }
+
+  .titleTxt{
+    margin-left: 0px;
+  }
+
+  .closeBtn{
+    background-color: transparent;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    position: relative;
+    right: 15px;
+  }
+  .expoFarma {
+    display: flex;
+    align-items: center; /* Alinea verticalmente en el centro */ 
+    justify-content: center;
+    width: 150px;
+    
+  }
+  .hashtag{
+    color: #74b9ff;
+  }
+  .Inolab{
+    font-size: 13px;
+    justify-content: space-between;
+    
+  }
+}
+
+/* Media Query para dispositivos con una anchura máxima de 768px */
+@media only screen and (max-width: 768px) {
+  /* Estilos específicos para dispositivos móviles */
+  /* Estilos específicos para dispositivos más grandes */
+  #toPromotedPage {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 5px 5px 3px #00000070;
+    width: 280px;
+    flex-direction: column;
+  }
+
+  #reabrirBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #74b9ff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 5px 5px 3px #00000070;
+    border-radius: 30%;
+    padding: 5px;
+  }
+
+  .popUpCont {
+    display: none;
+    background-color: #fff;
+    width: 280px;
+    height: 100px;
+  }
+
+  .popUpInside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5px;
+  }
+
+  .btnsCont {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .titlePopU {
+    background-color: #74b9ff;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+    width: 280px;
+    justify-content: space-between
+  }
+
+  .pBtn {
+    width: 270px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-top: 10px;
+  }
+
+  .btnPopUp {
+    background-color: transparent;
+    color: black;
+  }
+
+  .btnPopUp {
+    background-color: transparent;
+    color: #74b9ff;
+    text-decoration: underline;
+    font-weight: bold;
+    
+  }
+
+  .fa-message {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .fa-lightbulb-on {
+    position: relative;
+    left: 1px;
+    top: 10px;
+    font-size: 16px;
+  }
+
+  .titleTxt{
+    margin-left: 0px;
+  }
+
+  .closeBtn{
+    background-color: transparent;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    position: relative;
+    right: 15px;
+  }
+  .expoFarma {
+    display: flex;
+    align-items: center; /* Alinea verticalmente en el centro */ 
+    display: none;
+  }
+  .hashtag{
+    color: #74b9ff;
+  }
+  .oculatarMovil{
+    display: none;
+  }
+  .Inolab{
+    color: white;
+    font-size: 11px;
+  }
+}

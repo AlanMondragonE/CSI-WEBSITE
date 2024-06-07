@@ -1,0 +1,226 @@
+[
+    {
+        "name": "Aranzha Quiroz Langarica",
+        "phone": "5641594767",
+        "email": "aranzhaquiroz@inolab.com",
+        "photo": "/img/avatars/1.jpg",
+        "divisionId": 1,
+        "areaId": 1
+    },
+    {
+        "name": "Pamela Anaid Peña Ortega",
+        "phone": "5529445295",
+        "email": "anaidpena@inolab.com",
+        "photo": "pamela-anaid-2024.jpg",
+        "divisionId": 1,
+        "areaId" : 1
+    },
+    {
+        "name": "Jorge Adrián Salinas Rodríguez",
+        "phone": "5513531342",
+        "email": "adriansalinas@inolab.com",
+        "photo": "/img/avatars/3.jpg",
+        "divisionId": 1,
+        "areaId" : 1
+    },
+    {
+        "name": "Amairani Martínez Márquez",
+        "phone": "5527283898",
+        "email": "amairanimartinez@inolab.com",
+        "photo": "/img/avatars/4.jpg",
+        "divisionId": 1,
+        "areaId" : 1
+    },
+    {
+        "name": "Janatan Rodríguez Pineda",
+        "phone": "5584691511",
+        "email": "janatanrodriguez@inolab.com",
+        "photo": "/img/avatars/5.jpg",
+        "divisionId": 1,
+        "areaId" : 1
+    },
+    {
+        "name": "Abel Sánchez Bejarano",
+        "phone": "5575463142",
+        "email": "abelsanchez@inolab.com",
+        "photo": "abel-sanchez.jpg",
+        "divisionId": 4,
+        "areaId" : 2
+    },
+    {
+        "name": "Carlos Montaño Morales",
+        "phone": "5551938941",
+        "email": "carlosmontano@inolab.com",
+        "photo": "/img/avatars/7.jpg",
+        "divisionId": 2,
+        "areaId" : 1
+    },
+    {
+        "name": "Gabriel Ramírez Valdez",
+        "phone": "5579722438",
+        "email": "gabrielramirez@inolab.com",
+        "photo": "/img/avatars/8.jpg",
+        "divisionId": 2,
+        "areaId" : 1
+    },
+    {
+        "name": "Karla Mariana Silva Jivaja",
+        "phone": "5521111214",
+        "email": "karlasilva@inolab.com",
+        "photo": "/img/avatars/9.jpg",
+        "divisionId": 2,
+        "areaId" : 1
+    },
+    {
+        "name": "Karla Ivette López Leal",
+        "phone": "5554386274",
+        "email": "karlailopez@inolab.com",
+        "photo": "karla-torres-2024.jpg",
+        "divisionId": 4,
+        "areaId" : 2
+    },
+    {
+        "name": "Gerardo Roberto Hernández Lugo",
+        "phone": "5514524131",
+        "email": "ghernandez@inolab.com",
+        "photo": "gerardo-hernandez-2024.jpg",
+        "divisionId": 4,
+        "areaId" : 3
+    },
+    {
+        "name": "Rodolfo Ramírez",
+        "phone": "5555242429",
+        "email": "rramirez@inolab.com",
+        "photo": "rodolfo-ramirez-2024.jpg",
+        "divisionId": 4,
+        "areaId" : 2
+    },
+    {
+        "name": "Perla Vila",
+        "phone": "5555242429",
+        "email": "perlavila@inolab.com",
+        "photo": "/img/avatars/13.jpg",
+        "divisionId": 4,
+        "areaId" : 1
+    },
+    {
+        "name": "Yuliet Díaz",
+        "phone": "5555242429",
+        "email": "yulietdiaz@inolab.com",
+        "photo": "/img/avatars/14.jpg",
+        "divisionId": 3,
+        "areaId" : 1
+    },
+    {
+        "name": "Alejandro Pérez",
+        "phone": "5555242429",
+        "email": "ventas@inolab.com",
+        "photo": "/img/avatars/15.jpg",
+        "divisionId": 4,
+        "areaId" : 1
+    },
+    {
+        "name": "Lidia Yazmín Ramírez Bolaños",
+        "phone": "5555242429",
+        "email": "lidiaramirez@inolab.com",
+        "photo": "lidia-ramirez-2024.jpg",
+        "divisionId": 3,
+        "areaId" : 1
+    },
+    {
+        "name": "Karina Torres",
+        "phone": "5555242429",
+        "email": "karinatorres@inolab.com",
+        "photo": "karina-torres-2024.jpg",
+        "divisionId": 3,
+        "areaId" : 1
+    },
+    {
+        "name": "Evelyn Martínez Rodríguez",
+        "phone": "5555242429",
+        "email": "evelynmartinez@inolab.com",
+        "photo": "evelyn-martinez-2024.jpg",
+        "divisionId": 3,
+        "areaId" : 1
+    },
+    {
+        "name": "Dinorath Chamu",
+        "phone": "5555242429",
+        "email": "dinorathchamu@inolab.com",
+        "photo": "dinorath-chamu-2024.jpg",
+        "divisionId": 3,
+        "areaId" : 1
+    },
+    {
+        "name": "Sandra Paola Isidro Evaristo",
+        "phone": "5555242429",
+        "email": "paolaisidro@inolab.com",
+        "photo": "paola-isidro-2024.jpg",
+        "divisionId": 4,
+        "areaId" : 2
+    },
+    {
+        "name": "Angélica Lechuga Millán",
+        "phone": "5555242429",
+        "email": "ventas@inolab.com",
+        "photo": "/img/avatars/21.jpg",
+        "divisionId": 3,
+        "areaId" : 1
+    },
+    {
+        "name": "Artemio Arley Marroquín",
+        "phone": "5555242429",
+        "email": "aarley@inolab.com",
+        "photo": "artemio-arley-2024.jpg",
+        "divisionId": 4,
+        "areaId" : 8
+    },
+    {
+        "name": "Alejandro Huazo Lira",
+        "phone": "5555242429",
+        "email": "marketing@inolab.com",
+        "photo": "alejandro-huazo-2024.jpg",
+        "divisionId": 4,
+        "areaId" : 7
+    },
+    {
+        "name": "Paulina Vázquez Leyva",
+        "phone": "5555242429",
+        "email": "paulinavazquez@inolab.com",
+        "photo": "/img/avatars/24.jpg",
+        "divisionId": 4,
+        "areaId" : 6
+    },
+    {
+        "name": "Iván Villa Pérez",
+        "phone": "5555242429",
+        "email": "ivanvilla@inolab.com",
+        "photo": "ivan-villa-2024.jpg",
+        "divisionId": 4,
+        "areaId" : 6
+    },
+    {
+        "name": "José Armando Hernández Salamanca",
+        "phone": "5555242429",
+        "email": "josehernandez@inolab.com",
+        "photo": "armando.hernandez.jpg",
+        "divisionId": 4,
+        "areaId" : 4
+    },
+    {
+        "name": "Ricardo Carrillo Sánchez",
+        "phone": "5555242429",
+        "email": "ricardocarrillo@inolab.com",
+        "photo": "/img/avatars/27.jpg",
+        "divisionId": 4,
+        "areaId" : 4
+    },
+    {
+        "name" : "Alan Roberto Mondragon Esparza",
+        "phone": "5555242429",
+        "email": "marketing@inolab.com",
+        "photo": "/img/avatars/28.jpg",
+        "divisionId" : 4,
+        "areaId" : 5
+    }
+]

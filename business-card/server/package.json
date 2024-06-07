@@ -1,0 +1,24 @@
+{
+  "name": "business-card-server",
+  "version": "1.0.0",
+  "description": "Business Card Server for Inolab",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "create:divisions": "node database/seeders/divisions.js",
+    "create:areas": "node database/seeders/areas.js",
+    "create:users": "node database/seeders/users.js",
+    "start": "",
+    "build": ""
+  },
+  "author": "José Armando HS",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.4",
+    "ora": "^5.0.0",
+    "uuid": "^9.0.1",
+    "vcards-js": "^2.10.0"
+  }
+}

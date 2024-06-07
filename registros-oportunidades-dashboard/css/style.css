@@ -1,0 +1,116 @@
+/*.pill {
+  width: 100% !important;
+  border-radius: 32px;
+  margin: 0.5em;
+  padding: 1px 10px;
+  background: none;
+  color: #40783F;
+  cursor: pointer; 
+}*/
+
+/*.pill {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  cursor: pointer;
+}*/
+
+.input-container {
+  position: relative;
+}
+
+.autocomplete-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.autocomplete-list li {
+  padding: 8px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.pill {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 5px;
+  font-size: 13px  !important; 
+}
+
+.remove-icon {
+  cursor: pointer;
+  top: -10px;
+  right: -7px;
+  background-color: red;
+  color: white;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+/* Estilos para el icono de borrar */
+    .form-control-icon {
+      position: relative;
+    }
+
+    .form-control-icon .input-group-text {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .form-control-icon .input-group-text:hover {
+      opacity: 1;
+    }
+
+    /* Estilo adicional para el icono */
+    .form-control-icon .input-group-text i {
+      color: #ccc;
+    }
+
+
+    /* Estilos para el icono de borrar */
+    .form-control-icon {
+      position: relative;
+    }
+
+    .form-control-icon .input-group-text {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .form-control-icon .input-group-text:hover {
+      opacity: 1;
+    }
+
+    /* Estilo adicional para el icono */
+    .form-control-icon .input-group-text i {
+      color: #ccc;
+    }

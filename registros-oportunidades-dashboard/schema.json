@@ -1,0 +1,9 @@
+{
+    "name": "opportunities",
+    "fields": [
+      {"name": "id", "type": "string", "facet": false},
+      {"name": "name", "type": "string", "facet": true},
+      {"name": "email", "type": "string", "facet": false},
+      {"name": "phone", "type": "int32", "facet": false}
+    ]
+  }

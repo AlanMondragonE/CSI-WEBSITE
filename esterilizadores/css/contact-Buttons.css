@@ -1,0 +1,61 @@
+/*------Boton flotante------*/
+.flotante{
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    visibility: visible;
+}
+.redes a, .icon-info{
+    display: block;
+    text-decoration: none;
+    background: #9F1330;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 54px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0, 0,0,.4);
+    transition: all 500ms ease;
+}
+.redes .fa-whatsapp{
+    background:#00D670;
+    color: #fff;
+    font-size: 35px;
+}
+.redes .fa-envelope{
+    background: #58ace4;
+    display: block;
+    font-size: 30px;
+}
+.redes .fa-phone{
+    background: #58ace4;
+    display: none;
+    font-size: 25px;
+    transform: rotate(90deg);
+}
+.redes .fa-whatsapp:hover{
+    background:#fff;
+    color:  #00D670;
+}
+.redes a:hover{
+    background: #fff;
+    color: #58ace4;
+}
+.redes a{
+    margin-bottom: 15px;
+    opacity: 1;
+    visibility: visible;
+}
+
+#btn_mas:checked~ .icon-info{
+    
+    font-size: 40px;
+}
+/*------------------------------*/
+
+@media screen and (max-width: 800px) {
+    .redes .fa-phone{
+        display: block;
+    }
+}

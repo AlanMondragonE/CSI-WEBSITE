@@ -1,0 +1,59 @@
+{
+  "name": "Inolab Business Card",
+  "short_name": "Business Card",
+  "description": "Soluciones especializadas e integrales para equipos de laboratorio e industria",
+  "background_color": "#002046",
+  "theme_color": "#002046",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./assets/img/logos/icoAppInolabS_cuadro512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logos/icoAppInolabS_cuadro384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logos/icoAppInolabS_cuadro256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logos/icoAppInolabS_cuadro192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logos/icoAppInolabS_cuadro128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logos/icoAppInolabS_cuadro96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logos/icoAppInolabS_cuadro64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logos/icoAppInolabS_cuadro32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logos/icoAppInolabS_cuadro16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}

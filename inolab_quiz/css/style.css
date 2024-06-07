@@ -1,0 +1,139 @@
+.nameDB {
+    border: none;
+    border-radius: 0;
+    /* Opcional: eliminar el redondeo de la esquina */
+}
+
+.cardWithOneBorder {
+    /* Estilos generales de la tarjeta */
+    border: none;
+    border-right: 1px solid black;
+    /* Borde solo en el lado derecho */
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    /* Redondear esquinas (opcional) */
+}
+
+.cardWithOneBorder2 {
+    border: none;
+    box-shadow: none !important;
+    border-radius: 0px;
+}
+
+.live-indicator {
+    display: flex;
+    align-items: center;
+}
+
+.live-indicator__circle {
+    background-color: #e33a00;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0;
+    position: relative;
+
+    &::before,
+    &::after {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #e33a00;
+        content: '';
+        opacity: 0.4;
+        border-radius: 50%;
+
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        box-shadow: 0 0 10px 0 rgba(230, 56, 0, 0.4);
+    }
+
+    &::before {
+        animation: grow 2s infinite;
+    }
+}
+
+.live-indicator__text {
+    margin-left: 10px;
+    color: #e33a00;
+    font-weight: bold;
+}
+
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+    }
+
+    60% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes rotating {
+	from {
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+.refresh {
+	background: #ffffff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	padding: 8px;
+	border: 0;
+	border-radius: 4px;
+	width: 40px;
+	height: 40px;
+	display: block;
+	.icon {
+		fill: #323232;
+	}
+	&:hover {
+		background: #def4d7;
+		cursor: pointer;
+	}
+	&:active {
+		.icon {
+			fill: #5ac938;
+		}
+	}
+	&.loading {
+		background: #def4d7;
+		cursor: wait;
+		.icon {
+			fill: #5ac938;
+			-webkit-animation: rotating 1.2s linear infinite;
+			-moz-animation: rotating 1.2s linear infinite;
+			-ms-animation: rotating 1.2s linear infinite;
+			-o-animation: rotating 1.2s linear infinite;
+			animation: rotating 1.2s linear infinite;
+		}
+	}
+}
+.active-page {
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    /* Estilo para la clase activa, puedes personalizarlo según tus necesidades */
+}
+
+.page-link:focus {
+    background-color: blue !important;
+    color: white !important;
+
+}

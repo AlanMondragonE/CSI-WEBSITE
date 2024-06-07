@@ -1,0 +1,147 @@
+/*
+ * Component Header
+ * Componente header en el sitio web
+ */
+
+ .header {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-video {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: none;
+	background-color: #75ddd8;
+}
+
+.header-video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header p {
+    position: absolute; 
+    color: #ffffff;
+    font-size: 40px;
+    bottom: 25%;
+    left: 50%; 
+    transform: translateX(-50%);
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.header {
+		position: relative;
+        height: 12vh !important;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+	}
+	
+	.header-video {
+		position: relative; 
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+		overflow: none;
+		background-color: #75ddd8;
+	}
+	
+	.header-video img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	
+	.header p {
+		position: absolute;
+        color: #ffffff;
+        font-size: 33px;
+        bottom: 28%;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+        font-weight: bold;
+	}
+}
+
+/*------------------------  Estas clases solo son usadas en las otras paginas ----------------------------*/
+
+@media  screen and (max-width: 800px){
+	.square-txt{
+		width: 100%;
+		font-size: 8px;
+		padding: 12px;
+		bottom: 0;
+	}
+}
+
+@media  screen and (max-width: 560px){
+	.square-txt{
+		width: 100%;
+		font-size: 6px;
+		padding: 12px;
+		bottom: 0;
+	
+	}
+}
+
+@media  screen and (max-width: 400px){
+	.square-txt{
+		width: 100%;
+		font-size: 5px;
+		padding: 10px;
+		bottom: 0;
+	}
+}
+
+.av-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.av-contacto-direccion, .av-contacto-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.av-contacto-direccion p, .av-contacto-contacto p {
+    margin: 0;
+    color: black;
+}
+
+.av-contacto-direccion h3 {
+    margin: 0 0 10px 0; /* Espacio debajo del título */
+}
+
+.av-contacto-contacto p:not(:last-child) {
+    margin-bottom: 10px; /* Espacio entre los números de teléfono */
+    color: black;
+}
+
+
+/* Media query para dispositivos pequeños */
+@media (max-width: 768px) {
+    .av-contacto {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    p{
+        color: black;
+    }
+
+    .av-contacto-direccion, .av-contacto-contacto {
+		margin-top: 10px;
+        width: 100%; /* Asegura que las secciones ocupen todo el ancho en dispositivos pequeños */
+    }
+}

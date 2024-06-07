@@ -1,0 +1,102 @@
+/* ******************** BOTÓN FLOTANTE *********************/
+.flotante {
+    position: fixed;
+    bottom: 20px; 
+    right: 8px;
+    visibility: visible;
+    z-index: 2;
+  }
+  
+  .redes a,
+  .icon-info {
+    display: block;
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    background: var(--blue);
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+  }
+  .redes .uil-whatsapp {
+    background: #00d670;
+    color: #fff;
+    font-size: 45px;
+  }
+  .redes .uil-phone {
+    background: var(--blue);
+    font-size: 35px;
+  }
+  .redes .uil-mail {
+    background: var(--blue);
+    font-size: 35px;
+  }
+  
+  .redes .uil-mail:hover {
+    background: #fff;
+    cursor: pointer;
+    color: #615b5b;
+  }
+  .redes .uil-phone {
+    display: none;
+  }
+  .redes .uil-arrow-up {
+    display: none;
+    pointer-events: none;
+  }
+  .redes .uil-arrow-up.active {
+    pointer-events: auto;
+    display: block;
+  }
+  
+  .redes .uil-arrow-up.active:hover {
+    background: #fff;
+    cursor: pointer;
+    color: #615b5b;
+  }
+  
+  .redes .uil-phone:hover {
+    background: #fff;
+    cursor: pointer;
+    color: #615b5b;
+  }
+  .redes .uil-whatsapp:hover {
+    background: #fff;
+    color: #00d670;
+    cursor: pointer;
+  }
+  
+  .redes a {
+    margin-bottom: 15px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .uil-whatsapp {
+    font-size: 55px;
+  }
+  .uil-arrow-up {
+    font-size: 40px;
+  }
+  
+  #btn_mas:checked ~ .icon-info {
+    font-size: 40px;
+  }
+  
+  .header-icon{
+    width: 30px;
+    margin: auto;
+  }
+  
+  /* Media Query para dispositivos con una anchura máxima de 768px */
+@media only screen and (max-width: 768px) {
+  /* Estilos específicos para dispositivos móviles */
+  /* Estilos específicos para dispositivos más grandes */
+  .redes .uil-phone {
+    display: block;
+  }
+}
+
+ 

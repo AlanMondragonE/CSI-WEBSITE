@@ -1,0 +1,17 @@
+{
+    "name": "inolab/inolab-email",
+    "description": "Inolab Email Manager",
+    "autoload": {
+        "psr-4": {
+            "Inolab\\InolabEmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "José Armando Hernández Salamanca"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.7"
+    }
+}
